@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gbkapp", "gbkapp\gbkapp.csproj", "{D5E659B1-C498-453D-8191-F30776973AAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E659B1-C498-453D-8191-F30776973AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E659B1-C498-453D-8191-F30776973AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E659B1-C498-453D-8191-F30776973AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E659B1-C498-453D-8191-F30776973AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14883913-6506-43B6-9150-0DD0B0A919E0}
+	EndGlobalSection
+EndGlobal
