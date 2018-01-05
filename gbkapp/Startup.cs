@@ -18,8 +18,8 @@ namespace gbkapp
 		{
 			var builder = new ConfigurationBuilder()
 			  .SetBasePath(env.ContentRootPath)
-			  .AddEnvironmentVariables();
-			Configuration = builder.Build();
+              .AddJsonFile("appsettings.json");
+            Configuration = builder.Build();
 		}
 
         public IConfigurationRoot Configuration { get; set; }
@@ -29,7 +29,12 @@ namespace gbkapp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddEntityFrameworkMySql()
+           .AddDbContext<gbkingdomContext>(options =>
+                                     options
+                                          .UseMySql(Configuration["ConnectionStrings:DefaultConnection"]));
         }
+    }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
