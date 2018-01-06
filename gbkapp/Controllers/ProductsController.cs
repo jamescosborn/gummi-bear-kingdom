@@ -14,7 +14,8 @@ namespace gbkapp.Controllers
         private gbkingdomContext db = new gbkingdomContext();
         public IActionResult Index()
         {
-            return View();
+            List<Product> model = db.Products.ToList();
+            return View(model);
         }
     }
 }
