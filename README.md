@@ -66,7 +66,7 @@ Description: They're delicious.
 
 __Description:__  Admins are able to add a product to the list.  
 __Input:__  Admin adds "Red Bears."  
-__Output:__  Read Bears appears on list.
+__Output:__  Red Bears appears on list.
 
 __Description:__  Admins are able to delete an individual product from the list.  
 __Input:__  Admin deletes "Purple Bears."  
