@@ -1,4 +1,4 @@
-# Project Title
+# Gummi Bear Kingdom
 
 One paragraph of a project description
 
@@ -15,6 +15,9 @@ Technologies
 ## Known Bugs
 
 ## Contributors
+
+James Osborn
+jamescarlosborn@gmail.com
 
 ## Specs
 
