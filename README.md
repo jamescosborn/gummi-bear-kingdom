@@ -17,17 +17,23 @@ This is the ReadMe for the new official website for Gummi Bear Kingdom (GBK). On
 
  * Delete all products.  
 
-## Getting Started
+## Getting Started/Technologies Used
 
-Instructions
+What you'll need to view the website:
 
-## Prerequisites / Technologies Used
+* .NET Core 1.1 SDK  
+* .NET runtime  
+* Access to command line via GitBash or Terminal  
+* An internet browser (Chrome recommended)
 
-Technologies
+## Installation Instructions
 
-## Installation
+1. Do this  
+2. Do that
 
 ## Known Bugs
+
+* There are no known bugs at this time.  
 
 ## Contributors
 
@@ -37,3 +43,4 @@ jamescarlosborn@gmail.com
 ## Specs
 
 ## License
+This website uses the MIT license.  
