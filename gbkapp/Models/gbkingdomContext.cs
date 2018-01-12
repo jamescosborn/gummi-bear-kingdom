@@ -16,7 +16,7 @@ namespace gbkapp.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder
-                .UseMySql(@"Server=localhost;Port=8889;database=gbkingdom;uid=root;pwd=root;");
+                .UseMySql(@"Server=localhost;Port=3306;database=gbkingdom;uid=root;pwd=root;");
 
 
         public gbkingdomContext(DbContextOptions<gbkingdomContext> options)
