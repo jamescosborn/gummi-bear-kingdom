@@ -58,6 +58,15 @@ __Output:__  User sees a list of name of all of GBK's products.
 __Description:__  User is able to click and individual product to see its name, cost and description.  
 __Input:__  User clicks "Magic Bears."  
 __Output:__  
+
+__Description:__ User is able to add a review to the product, containing 3 properties: an author, content and rating.
+__Input:__ User adds review: Billy Bob, Magic Bears are delicious, 5.
+__Output:__ Review added!
+
+__Description:__ User can see an average rating of a product on it's product detail page.
+__Input:__ View Magic Bears.
+__Output:__ Average rating: 4.9.
+
 ```
 Name: Magic Bears  
 Cost: $5  
