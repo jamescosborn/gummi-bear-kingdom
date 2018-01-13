@@ -1,22 +1,22 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ToDoList.Models;
+using gbkapp.Models;
 
-namespace ToDoList.Tests
+namespace gbkapp.Tests
 {
     [TestClass]
-    public class ItemTests
+    public class ProductTests
     {
         [TestMethod]
-        public void GetDescription_ReturnsItemDescription_String()
+        public void ConstructProduct_ReturnsAProduct_True()
         {
             //Arrange
-            var item = new Item();
+            var product = new Product();
 
             //Act
-            var result = item.Description;
+            var result = product.Description;
 
             //Assert
-            Assert.AreEqual("Wash the dog", result);
+            Assert.AreEqual("The original Gummi Bear", result);
         }
     }
 }
